@@ -69,8 +69,8 @@ export default function Sidebar() {
             >
                 
                 <NavItem navSize={navSize} icon={FiHome} title="Dashboard" active/>
-                <NavItem navSize={navSize} icon={CgComponents} title="Components" />
-                <NavItem navSize={navSize} icon={RiPagesLine} title="Page" />
+                <NavItem navSize={navSize} icon={CgComponents} title="Components" subMenu="Table" />
+                <NavItem navSize={navSize} icon={RiPagesLine} title="Page" subMenu="Login" />
                 <NavItem navSize={navSize} icon={FiSettings} title="Settings" />
 
             </Flex>
